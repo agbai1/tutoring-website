@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+    <title>Obrota - math</title>
+</head>
+
+<!--Start of Body -->  
+<body>   
+<!-- Navigation -->  
+    <!--PHP Script-->
+  
+  <nav class="navbar bg-white navbar-expand-md shadow">
+    <a class="navbar-brand lgp-hdr pl-1 font-weight-bold text-dark" href="index.html">Obrota-Tutors.com</a>
+    <button class="navbar-toggler bg-secondary" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <!--Dropdown Menu -->
+    <div class="collapse p-2 bg-white navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link text-dark " href="index.html">Home 
+            <span class="sr-only">(current) </span>
+          </a>
+        </li>
+        <li class="nav-item dropdown" >
+          <a class="nav-link dropdown-toggle  text-dark" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            MENU
+          </a>
+          <div class="dropdown-menu" id="bd-menu-login" aria-labelledby="navbarDropdownMenuLink"> 
+            <a class="dropdown-item  text-dark" href="math.html">Math</a>
+            <a class="dropdown-item disabled text-dark" href="#">English</a>
+            <a class="dropdown-item disabled  text-dark" href="#">Tutors Available</a>
+          </div>
+        </li>
+      </ul>
+    
+    <!--Log In and Sign Up Form Container -->
+    <div class="nav-button row no-gutters bg-secondary">
+    <!--Sign Up Form -->
+    <div class="wrp-signup col-xs-6 " id="wrp-signup" style="color: #76CFE8;"> 
+      <button id="signup-button" type="button" class="btn btn-secondary" data-toggle="modal" data-target="#signup-modal">
+        <a href="signup.html" style="text-decoration: none; color: #76CFE8;">
+			SIGN UP
+		</a>
+      </button>
+    
+    </div> <!--end of .wrp-signup-->
+    
+    <!--Login Form -->
+    <div class="wrp-login col-xs-6 bg-white"> 
+      <button id="login-button" type="button" class="login-button" data-toggle="modal" data-target="#login-modal">
+        <a class ="text-dark" href="login.html" style="text-decoration: none;">
+			LOG IN
+		</a>
+      </button>
+      <button id="logout-button" type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="tooltip" data-placement="right" title="Log Out">LOG OUT</button>
+      <!-- Modal -->
+      
+    </div> <!--end of .wrp-login-->
+  </div><!-- end of .navbar-button -->
+  </div><!-- end of .navbar-collapse -->
+</nav>
+  
+    
+  <!-- MAIN Page Content -->
+  <main class="wrap bg-light">
+    <div class="container">
+      <section class=" row no-gutters bg-light">
+        <div class="col-12 lp-header text-center text-dark p-4">
+          <h3 class="lp-header">Welcome back to Obrota Tutors</h3>
+        </div><!-- end of .col-12 -->
+        <div class="col-12 lp-form bg-white shadow">
+          <form class="lp-modal-content">
+            <div class="form-group">
+              <label for="username">Username</label><br>
+              <input type="text" id="lp-username"  class="form-control shadow" placeholder="Ex - eke123">
+              <small id="usernameHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label><br>
+              <input type="password" id="lp-password" class="form-control shadow"  placeholder="*******">
+            </div>
+            
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input " id="lp-check1">
+              <label class="form-check-label" for="lp-check1">Remember password</label>
+            </div>
+          </form> 
+            <div class="text-center">
+                <button type="submit" id="lp-login" class="lpsubmit-button btn btn-secondary" style="color: #76CFE8;">Submit</button>
+            </div>
+            <br>
+            <div id="test-page">
+                <p id="test-login"></p>
+            </div>
+        </div><!-- end of .col-12 -->
+        <div></div><!-- place holder div -->
+      </section> 
+    </div><!-- end of .container -->
+  </main><!-- end of main -->
+  
+  <!-- Footer Content -->
+  <footer>
+    <div class="container pt-4" style="background-color: #585B68">
+      <div class="add-margin-top">
+        <section class="row no-gutters">
+          <div class="col-md-6 col-12">
+            <div class="title"><h5 class="font-6 pl-3 st-header font-weight-bold" style="font-size: 1.3em;">Join Our Mailing List</h5></div>
+            <div class="subtitle">
+              <span class="st-text pl-3" style="color:#f4f7f6">Never miss an update</span>
+            </div>
+            <!-- Footer Form -->
+            <div class="row no-gutters ft-form" >
+              <div class="col-md-1 pb-2 d-none d-md-block">
+                <img class="mail-icon"  src="img/snap.png">     
+              </div> <!-- end of .col-md-1 -->
+              <div class="col-md-10 col-8"> 
+                <form class="form" role="form">
+                  <div class="pl-3 pt-2 form-group">
+                    <label class="sr-only " for="exampleInputEmail1">Email address</label>
+                    <input placeholder="Email Address"  type="email" id="exampleInputEmail1"  class="form-control transparent" aria-describedby="emailHelp" >
+                  </div> <!-- end of .form-group -->
+                  <div class="pl-3">
+                  <button type="submit" class="subscribe-btn">
+                    Subscribe Now
+                  </button>
+                  </div>
+                </form>  
+              </div> <!-- end of .col-md-10 -->  
+            </div> <!-- end of .row -->
+          </div> <!-- end of .col-md-6 -->
+          <div class="col-md-1 col-12 d-none d-md-block"></div> <!-- end of .col-md-1 -->
+          <div class="col-md-5 col-12">
+            <section class="row no-gutters">
+              <div class="col-md-2 col-2">
+                <a href="#">
+                  <img class="info-icon"  src="img/info2.jpg"> 
+                </a> 
+              </div>
+              <div class="col-md-2 col-2">
+                <a href="#">
+                  <img class="info-icon"  src="img/info2.png"> 
+                </a>
+              </div>
+              <div class="col-md-8 d-none d-md-block"></div>
+            </section>
+            <section class="row no-gutters">
+            <div class="ft-form col-md-6">
+             <div>
+               <span class="info-txt pl-2">inf0@emailexample.com</span>
+             </div>
+             <div class="ft-bdr pt-4 d-none d-md-block"></div>
+            </div>
+            <div class="col-md-6"></div>
+            
+            <span class="info-txt pl-2">&#169; 2019 by Obrota Tutors.
+            <br>
+            Build for Knowledge Equality</span>
+            </section>
+          </div> <!-- end of .col-md-5 -->
+        </section>
+      </div><!-- end of .add-margin-top -->
+    </div> <!-- end of .container -->
+  </footer><!-- end of footer -->
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!--Jquery Script-->
+    <script src="js/get.js"></script>
+  </body>
+</html>
