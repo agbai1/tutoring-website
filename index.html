@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+    <title>Obrota - Tutoring Services</title>
+</head>
+<!--Start of Body -->    
+<body> 
+<!-- Navigation -->  
+  <nav class="navbar navbar-expand-md fixed-top">
+    <a class="navbar-brand pl-1 font-weight-bold text-white" href="#">Obrota-Tutors.com</a>
+    <button class="navbar-toggler bg-secondary btn-xs" type="button" style="font-size: 0.9rem;" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">MENU
+      <span class="navbar-toggler-icon"></span>
+    </button>
+     
+     <!--Dropdown Menu -->
+    <div class="collapse p-2 navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link text-white font-weight-bold" href="index.html">Home 
+            <span class="sr-only">(current) </span>
+          </a>
+        </li>
+        <li class="nav-item dropdown font-weight-bold">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            MENU
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
+            <a class="dropdown-item font-weight-bold text-white" href="math.html">Math</a>
+            <a class="dropdown-item disabled font-weight-bold text-white" href="#">English</a>
+            <a class="dropdown-item disabled font-weight-bold text-white" href="#">Tutors Available</a>
+          </div>
+        </li>
+      </ul>
+
+     <!--Log In and Sign Up Form Container -->
+    <div class="nav-button row no-gutters bg-secondary">
+    <!--Sign Up Form -->
+    <div class="wrp-signup col-md-6 d-none d-md-block" id="wrp-signup"> 
+      <button id="signup-button" type="button" class="btn btn-secondary" data-toggle="modal" data-target="#signup-modal">
+        <a href="signup.html" style="text-decoration: none; color: #76CFE8;">
+			SIGN UP
+		</a>
+      </button>     
+    </div> <!--end of .wrp-signup-->
+    
+    <!--Login Form -->
+    <div class="wrp-login col-md-6 d-none d-md-block bg-white"> 
+      <button id="login-button" type="button" class="login-button" data-toggle="modal" data-target="#login-modal">
+        <a class ="text-dark" href="login.html" style="text-decoration: none;">
+			LOG IN
+		</a>
+      </button>
+      <button id="logout-button" type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="tooltip" data-placement="right" title="Log Out">LOG OUT</button>
+      <p id="test-login"></p>
+      
+    </div> <!--end of .wrp-login-->
+  </div>
+    </div>
+</nav>
+    
+  <!-- Full Page Image Header with Vertically Centered Content -->
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12 text-center">
+          <h1 class="font-weight-bold text-white">Find the best tutors near you.</h1>
+          <p class="lead text-white font-weight-bold">Need the best tutor? We can help you.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+      
+  <!-- Page Content -->
+  <main class="wrap">
+    <div class="container p-0">
+      <section>
+        <div class="heading p-3">
+          <h2>
+            Tutors Near me
+          </h2>
+        </div><!--end of .heading-->
+      </section>
+    <!--Sections page to columns -->
+    <section class="row no-gutters">
+        <div class="col-lg-4 col-md-12 text-center p-3 order-2">
+          <img class="img-fluid" src="img/math-stk.jpg" alt="math">
+            <h6>
+            Math Tutors Near me
+          </h6>
+        </div> <!-- end of .col-md-6 -->
+        <div class="col-lg-4 col-md-6 text-center p-3 d-none d-md-block">
+          <img class="img-fluid" src="img/math2-stk.jpg" alt="english">
+          <h6>
+            English Tutors Near me
+          </h6>
+        </div> <!-- end of .col-md-1 -->
+        <div class="col-lg-4 col-md-6 text-center p-3 d-none d-md-block">
+          <img class="img-fluid"  src="img/math3-stk.jpg" alt="writing">
+          <h6>
+           Writing Tutors Near me
+          </h6>
+        </div> <!-- end of .col-md-5 -->  
+      </section>
+    <!--Second Section -->
+      <section>
+        <div class="heading p-3">
+          <h2>
+            Tutoring Services
+          </h2>
+        </div><!--end of .heading-->
+      </section>
+      <section class="row no-gutters">
+        <div class="col-lg-4 col-md-6 text-center p-3">
+          <img class="img-fluid" id="" src="img/geometry.jpg" alt="geometry">
+            <h6>
+            Geometry Tutors Near me
+          </h6>
+        </div> <!-- end of .col-md-6 -->
+        <div class="col-lg-4 col-md-6 p-3 text-center d-none d-md-block">
+          <img class="img-fluid" id="" src="img/calculus.jpg" alt="calculus">
+          <h6>
+           Calculus Tutors Near me
+          </h6>
+        </div> <!-- end of .col-md-1 -->
+        <div class="col-lg-4 col-md-12 p-3 text-center d-none d-md-block">
+          <img class="img-fluid" id="" src="img/biology.jpg" alt="writing">
+          <h6>
+            Biology Tutors Near me
+          </h6>
+        </div> <!-- end of .col-md-5 -->
+      </section>
+    </div> <!-- end of .container -->
+  </main>
+
+    <!--Footer -->
+  <footer>
+    <div class="container pt-4" style="background-color: #585B68">
+      <div class="add-margin-top">
+        <section class="row no-gutters">
+          <div class="col-md-6 col-12">
+            <div class="title"><h5 class="font-6 pl-2 font-weight-bold" style="font-size: 1.3em;">Join Our Mailing List</h5></div>
+            <div class="subtitle">
+              <span class="st-text pl-2" style="color:#f4f7f6">Never miss an update</span>
+            </div>
+         
+            <div class="row no-gutters ft-form" >
+              <div class="col-md-1 pb-2 d-none d-md-block">
+                <img class="mail-icon"  src="img/snap.png">     
+              </div> <!-- end of .col-md-1 -->
+              <div class="col-md-10 col-12"> 
+                <form class="form" role="form">
+                  <div class="pl-2 pt-2 form-group">
+                    <label class="sr-only" for="exampleInputEmail1">Email address</label>
+                    <input placeholder="Email Address"  type="email" id="exampleInputEmail1"  class="form-control transparent" aria-describedby="emailHelp" >
+                  </div> <!-- end of .form-group -->
+                  <div class="pl-2">
+                  <button type="submit" class="subscribe-btn">
+                    Subscribe Now
+                  </button>
+                  </div>
+                </form>  
+              </div> <!-- end of .col-md-10 -->  
+            </div> <!-- end of .row -->
+          </div> <!-- end of .col-md-6 -->
+          <div class="col-md-1 col-6 d-none d-md-block"></div> <!-- end of .col-md-1 -->
+          <div class="col-md-5 col-12">
+            <section class="row no-gutters">
+              <div class="col-md-2 col-2">
+                <a href="#">
+                  <img class="info-icon"  src="img/info2.jpg"> 
+                </a> 
+              </div>
+              <div class="col-md-2 col-2">
+                <a href="#">
+                  <img class="info-icon"  src="img/info2.png"> 
+                </a>
+              </div>
+              <div class="col-md-8 d-none d-md-block"></div>
+            </section>
+            <section class="row no-gutters">
+            <div class="ft-form col-md-6">
+             <div>
+               <span class="info-txt">inf0@emailexample.com</span>
+             </div>
+             <div class="ft-bdr pt-4 d-none d-md-block"></div>
+            </div>
+            <div class="col-md-6"></div>
+            
+            <span class="info-txt">&#169; 2019 by Obrota Tutors.
+            <br>
+            Build for Knowledge Equality</span>
+            </section>
+          </div> <!-- end of .col-md-5 -->
+        </section>
+      </div><!-- end of .add-margin-top -->
+    </div> <!-- end of .container -->
+  </footer><!-- end of footer -->
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!--Jquery Script-->
+    <script src="js/get.js"></script>
+
+</body>
+
+</html>
